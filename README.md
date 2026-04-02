@@ -1,1 +1,1 @@
-# domjudge
+domjudge automation
