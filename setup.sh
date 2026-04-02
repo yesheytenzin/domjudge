@@ -19,7 +19,7 @@ docker compose up -d
 
 echo ""
 echo "=== DOMjudge Setup Complete ==="
-echo "Admin URL:          http://localhost:8080"
+echo "Admin URL:          http://localhost"
 echo "Admin Username:     admin"
 echo "Admin Password:     $ADMIN_PASSWORD"
 echo "Judgehost Password: $JUDGEDAEMON_PASSWORD"
