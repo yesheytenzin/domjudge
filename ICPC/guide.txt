@@ -1,0 +1,7 @@
+contest.yaml --> include yml config files to setup the contest, date, durations. in the domjudge website just create a new contest or import it using the contest.yaml file. NOTE: edit the yaml file before doing anything
+
+groups.tsv --> just defines the different groups or category of contest. keep it default
+
+teams.tsv -->  defines the different teams in the contest. edit it as per you need and update the team details.
+
+as for the questions making. the questions and the sample output should be in pdf format. under the questions tab in the domjudge admin web page. select create questions by entering details such as question name and upload the pdf file. in the same tab there would be a edit samples option. insert sample files which would define the how input and output would look like from a computers prespective. input.in file defines the input and output.ans defines the output of the question.

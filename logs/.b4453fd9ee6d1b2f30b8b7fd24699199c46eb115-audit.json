@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/tenz/Projects/domjudge/logs/.b4453fd9ee6d1b2f30b8b7fd24699199c46eb115-audit.json",
+    "files": [
+        {
+            "date": 1775158535194,
+            "name": "/home/tenz/Projects/domjudge/logs/application-2026-04-03.log",
+            "hash": "6848cfdc420d402832fb76799ae3a93894d40d26043e0b5923e7332a36635991"
+        }
+    ],
+    "hashType": "sha256"
+}

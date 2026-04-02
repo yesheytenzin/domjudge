@@ -1,0 +1,95 @@
+# University Programming Contest - 15 Problems
+---
+problems:
+  - letter: A
+    short-name: sumavg
+    title: "Sum and Average of N Numbers"
+    color: green
+    rgb: "#00ff00"
+
+  - letter: B
+    short-name: tempconv
+    title: "Convert Celsius to Fahrenheit"
+    color: green
+    rgb: "#00ff00"
+
+  - letter: C
+    short-name: evenoddcount
+    title: "Count Even and Odd Numbers in N Inputs"
+    color: green
+    rgb: "#00ff00"
+
+  - letter: D
+    short-name: largest3
+    title: "Largest Among Three Numbers"
+    color: green
+    rgb: "#00ff00"
+
+  - letter: E
+    short-name: rectcalc
+    title: "Area and Perimeter of a Rectangle"
+    color: green
+    rgb: "#00ff00"
+
+  # Medium (Yellow)
+  - letter: F
+    short-name: gradecalc
+    title: "Grade Calculator"
+    color: yellow
+    rgb: "#ffff00"
+
+  - letter: G
+    short-name: vowelcount
+    title: "Count Vowels in a String"
+    color: yellow
+    rgb: "#ffff00"
+
+  - letter: H
+    short-name: fact
+    title: "Factorial Using Function"
+    color: yellow
+    rgb: "#ffff00"
+
+  - letter: I
+    short-name: fib
+    title: "Nth Fibonacci Number"
+    color: yellow
+    rgb: "#ffff00"
+
+  - letter: J
+    short-name: palindrome
+    title: "Check Palindrome String"
+    color: yellow
+    rgb: "#ffff00"
+
+  # Hard (Red)
+  - letter: K
+    short-name: sumprime
+    title: "Sum of Prime Numbers up to N"
+    color: red
+    rgb: "#ff0000"
+
+  - letter: L
+    short-name: armstrong
+    title: "Armstrong Number Check"
+    color: red
+    rgb: "#ff0000"
+
+  - letter: M
+    short-name: pattern1
+    title: "Print Number Pyramid Pattern"
+    color: red
+    rgb: "#ff0000"
+
+  - letter: N
+    short-name: sortarray
+    title: "Sort Array in Ascending Order"
+    color: red
+    rgb: "#ff0000"
+
+  - letter: O
+    short-name: matrixsum
+    title: "Sum of Two Matrices"
+    color: red
+    rgb: "#ff0000"
+

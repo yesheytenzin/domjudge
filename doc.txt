@@ -1,0 +1,23 @@
+# 1. Edit .env and set your passwords
+nano .env
+copy exmaple from .env.example
+
+# 2. remove existing containers
+docker compose down -v
+
+# 3. Run setup
+./setup.sh
+
+# 4. Check container status
+docker ps
+docker `logs -f domserver
+
+# 4. Access DOMjudge at http://localhost
+#    Login: admin / YourSecureAdminPass123!
+
+Note: If you need to add more judgehosts, duplicate the judgehost-0 service section and change DAEMON_ID to 1, 2, etc.
+
+Interface	URL
+Team interface (submit solutions, view own submissions)	http://localhost:8080/team
+Public scoreboard	http://localhost:8080/public
+Default (auto-redirects based on role)	http://localhost:8080/
