@@ -1,0 +1,221 @@
+================================================================================
+              INTRA COLLEGE PROGRAMMING CONTEST 2026
+           SCORING SYSTEM - OFFICIAL DOCUMENTATION
+================================================================================
+
+Based on DOMjudge 8.1 Official Documentation
+Reference: https://www.domjudge.org/docs/manual/8.1/
+
+================================================================================
+1. SCORING TYPE: PASS-FAIL (ICPC-STYLE)
+================================================================================
+
+DOMjudge supports two scoreboard types:
+  - Pass-fail (ICPC-style) - used in this contest
+  - Score (IOI-style with partial scoring)
+
+In pass-fail mode, a problem is either ACCEPTED or REJECTED.
+This follows the CCS specification for ICPC-style contests.
+
+================================================================================
+2. HOW RANKING WORKS
+================================================================================
+
+Teams are sorted by (in this order):
+
+  STEP 1: SORTORDER (grouping)
+  - Teams are first grouped by their sortorder
+  - This separates participants from non-eligible teams (staff, etc.)
+
+  STEP 2: NUMBER OF PROBLEMS SOLVED (descending)
+  - Teams with MORE solved problems rank higher
+  - Each correctly solved problem = 1 point (configurable)
+
+  STEP 3: TOTAL PENALTY TIME (ascending)
+  - Teams with LESS penalty time rank higher
+  - Penalty time = sum of time taken to solve each problem
+    + penalty for wrong submissions
+
+  STEP 4: TIME OF LAST ACCEPTED SUBMISSION (tiebreaker)
+  - If two teams have same score AND same penalty time
+  - The team that solved their LAST problem EARLIER wins
+
+================================================================================
+3. PENALTY TIME CALCULATION
+================================================================================
+
+PENALTY = Number of wrong submissions × penalty per wrong submission
+
+DEFAULT SETTINGS (per DOMjudge configuration):
+  - Penalty per wrong submission: 20 minutes
+  - Scoreboard resolution: minutes (can be set to seconds)
+  - Compiler errors: NO penalty (compile_penalty = false)
+
+IMPORTANT RULES:
+
+  a) WRONG SUBMISSIONS ONLY COUNT IF PROBLEM IS EVENTUALLY SOLVED
+     - Wrong submissions on unsolved problems = NO penalty
+     - This encourages trying difficult problems
+
+  b) WRONG SUBMISSIONS AFTER ACCEPTED = NO PENALTY
+     - Once you solve a problem, subsequent wrong submissions on
+       that problem do NOT add more penalty
+
+  c) COMPILE ERRORS = NO PENALTY (by default)
+     - If your code doesn't compile, you don't lose points
+
+  d) TIME IS ROUNDED DOWN TO NEAREST MINUTE (by default)
+     - Can be changed to second granularity
+
+FORMULA:
+  Total Score = Sum of (time to solve each problem in minutes)
+             + (wrong submissions × 20 minutes)
+
+================================================================================
+4. EXAMPLE SCENARIO
+================================================================================
+
+Contest starts at 09:00:00
+
+TEAM A:
+  09:20:00 - Wrong submission on Problem A (20 min penalty)
+  09:30:00 - Correct submission on Problem A (solved!)
+  09:45:00 - Correct submission on Problem B (solved!)
+  10:15:00 - Wrong submission on Problem C (20 min penalty)
+  10:30:00 - Correct submission on Problem C (solved!)
+
+  Calculation:
+    Problem A solved at 30 min + Problem B at 45 min + Problem C at 90 min
+    = 30 + 45 + 90 = 165 minutes (time)
+    + 2 wrong submissions × 20 = 40 minutes (penalty)
+    TOTAL SCORE = 205 points
+
+TEAM B:
+  09:15:00 - Correct submission on Problem A (solved!)
+  09:35:00 - Correct submission on Problem B (solved!)
+  09:50:00 - Wrong submission on Problem C (20 min penalty)
+  10:20:00 - Wrong submission on Problem C (20 min penalty)
+  10:45:00 - Correct submission on Problem C (solved!)
+
+  Calculation:
+    Problem A at 15 min + Problem B at 35 min + Problem C at 105 min
+    = 15 + 35 + 105 = 155 minutes (time)
+    + 2 wrong submissions × 20 = 40 minutes (penalty)
+    TOTAL SCORE = 195 points
+
+RESULT: TEAM B WINS
+  - Both solved 3 problems (same)
+  - Team B has lower penalty time (195 < 205)
+  - Team B wins because of better time efficiency
+
+================================================================================
+5. VERDICTS AND THEIR EFFECT
+================================================================================
+
+| Verdict           | Solved? | Penalty? | Time Counted? |
+|-------------------|---------|----------|---------------|
+| ACCEPTED          | Yes     | No       | Yes (from submit time) |
+| WRONG ANSWER      | No      | No*      | No |
+| TIME LIMIT EXCEEDED | No    | No*      | No |
+| RUN TIME ERROR    | No      | No*      | No |
+| MEMORY LIMIT EXCEEDED | No   | No*      | No |
+| OUTPUT LIMIT EXCEEDED | No   | No*      | No |
+| NO OUTPUT         | No      | No*      | No |
+| COMPILATION ERROR | No      | No**     | No |
+
+* Only counts as penalty if the problem is eventually solved
+** Default is no penalty for compile errors (can be enabled)
+
+================================================================================
+6. SCOREBOARD DISPLAY
+================================================================================
+
+The public scoreboard shows:
+
+  RANK | TEAM         | A | B | C | D | E | F | SOLVED | SCORE
+  -----|--------------|---|---|---|---|---|---|--------|------
+    1  | Team1-GCIT   | + | + | + | - | - | - |    3   |  195
+    2  | Team2-CST    | + | + | + | - | - | - |    3   |  205
+    3  | Team3-GCIT   | + | + | - | + | - | - |    2   |   89
+
+LEGEND:
+  + = Solved (shows time if solved, or number of wrong attempts)
+  - = Not solved
+  SOLVED = Number of problems solved
+  SCORE = Total penalty time (lower is better)
+
+================================================================================
+7. SCOREBOARD FREEZE
+================================================================================
+
+45 minutes before contest end:
+  - Public scoreboard FREEZES (becomes read-only)
+  - Teams can still submit
+  - Submissions are still judged
+  - Results are hidden from other teams
+  - Final results revealed after contest ends
+
+This prevents late solves from affecting the final rankings.
+
+================================================================================
+8. TWO SCORING TYPES COMPARISON
+================================================================================
+
+TYPE 1: PASS-FAIL (ICPC-STYLE) - USED IN THIS CONTEST
+────────────────────────────────────────────────────────
+  - Each problem = 1 point when solved
+  - Ranking: Most solves > Less time > Last solve time
+  - All problems have equal weight
+
+TYPE 2: SCORE (IOI-STYLE)
+────────────────────────────────────────────────────────
+  - Each problem = multiple points (can be partial)
+  - Ranking: Highest total points > Less time
+  - Problems can have different weights
+  - Used for optimization problems
+
+================================================================================
+9. CONTEST-SPECIFIC SETTINGS
+================================================================================
+
+Based on DOMjudge configuration for this contest:
+
+  Setting                    | Value
+  ---------------------------|-------
+  Scoring Type              | Pass-fail (ICPC-style)
+  Points per solved problem  | 1
+  Penalty per wrong sub      | 20 minutes
+  Scoreboard resolution     | Minutes
+  Compile error penalty     | No
+  Scoreboard freeze         | 45 minutes before end
+
+================================================================================
+10. SUMMARY
+================================================================================
+
+  ✓ Each solved problem = 1 point
+  ✓ Wrong submissions = +20 minutes penalty (only if solved)
+  ✓ Ranking: Most solves → Lowest score → Earlier last solve
+  ✓ Compile errors = No penalty
+  ✓ Scoreboard freezes 45 min before end
+
+================================================================================
+11. QUICK REFERENCE
+================================================================================
+
+TO WIN:
+  1. Solve as many problems as possible
+  2. Solve them quickly (lower time)
+  3. Make fewer mistakes
+
+SCORE FORMULA:
+  Score = Sum of (time to solve each problem in minutes)
+        + (wrong submissions × 20)
+
+TIME FORMAT:
+  Shown as minutes from contest start (e.g., "45" = solved at 00:45:00)
+
+================================================================================
+                         INTRA COLLEGE PROGRAMMING CONTEST 2026
+                              GOOD LUCK TO ALL PARTICIPANTS!
+================================================================================
