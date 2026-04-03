@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Problem A - Sum and Average</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    h1 { color: #2e7d32; } /* Green */
+    .badge { display: inline-block; padding: 5px 15px; border-radius: 15px; background: #00ff00; color: white; }
+    pre { background: #f5f5f5; padding: 15px; border-radius: 5px; }
+    .example { display: flex; gap: 20px; }
+    .example pre { margin: 0; }
+  </style>
+</head>
+<body>
+  <h1>Problem A: Sum and Average of N Numbers <span class="badge">EASY</span></h1>
+
+  <h2>Description</h2>
+  <p>Given N integers, calculate their sum and average.</p>
+
+  <h2>Input Format</h2>
+  <ul>
+    <li>First line: Integer N (1 ≤ N ≤ 1000)</li>
+    <li>Second line: N space-separated integers</li>
+  </ul>
+
+  <h2>Output Format</h2>
+  <p>Two values separated by a space: sum and average (round down to integer)</p>
+
+  <h2>Example</h2>
+  <div class="example">
+    <div><strong>Input:</strong><pre>5
+1 2 3 4 5</pre></div>
+    <div><strong>Output:</strong><pre>15 3</pre></div>
+  </div>
+
+  <h2>Constraints</h2>
+  <ul>
+    <li>All numbers are integers</li>
+    <li>Average should be floor of actual average</li>
+  </ul>
+
+  <h2>Test Cases</h2>
+  <ul>
+    <li><strong>Test 1:</strong> 5 numbers (1,2,3,4,5) → sum=15, avg=3</li>
+    <li><strong>Test 2:</strong> 3 numbers (10,20,30) → sum=60, avg=20</li>
+  </ul>
+</body>
+</html>

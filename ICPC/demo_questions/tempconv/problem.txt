@@ -1,0 +1,27 @@
+================================================================================
+PROBLEM B: CONVERT CELSIUS TO FAHRENHEIT                         [EASY]
+================================================================================
+
+Difficulty: 🟢 GREEN - Easy
+
+Description:
+Convert a temperature from Celsius to Fahrenheit.
+
+Formula: F = (C × 9/5) + 32
+
+Input Format:
+- Single integer C (temperature in Celsius, -1000 ≤ C ≤ 1000)
+
+Output Format:
+- Integer temperature in Fahrenheit
+
+Example:
+Input:          Output:
+100             212
+
+Note: Output should be rounded to nearest integer.
+
+Test Cases:
+- 1.in / 1.out: 100°C = 212°F
+- 2.in / 2.out: 0°C = 32°F
+- 3.in / 3.out: -40°C = -40°F

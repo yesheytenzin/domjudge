@@ -1,15 +1,11 @@
-teams	1
-team001	1	1	RSCB	College CST	ACM	BTN
-team002	2	1	Code_404	College CST	ACM	BTN
-team003	3	1	Tech_guys	College CST	ACM	BTN
-team004	4	1	Rising_star	College CST	ACM	BTN
-team005	5	1	Syntax	College CST	ACM	BTN
-team006	6	1	Hecter	College CST	ACM	BTN
-team007	7	1	Bug_Off	College CST	ACM	BTN
-team008	8	1	Code_blooded	College CST	ACM	BTN
-team009	9	1	UserZ	College CST	ACM	BTN
-team010	10	1	Coding_Jockers_2.0	College CST	ACM	BTN
-team011	11	1	SWE_1	College CST	ACM	BTN
-team012	12	1	SWE_2	College CST	ACM	BTN
-team013	13	1	SillySid	College CST	ACM	BTN
-team014	14	1	LadyCode	College CST	ACM	BTN
+File_Version	2
+1	447001	1	Team1-CST	College of Science and Technology	CST	BTN	INST-1
+2	447002	1	Team2-CST	College of Science and Technology	CST	BTN	INST-1
+3	447003	1	Team3-CST	College of Science and Technology	CST	BTN	INST-1
+4	447004	1	Team4-CST	College of Science and Technology	CST	BTN	INST-1
+5	447005	1	Team5-CST	College of Science and Technology	CST	BTN	INST-1
+6	447006	2	Team1-GCIT	Gyalpozhing College of Information Technology	GCIT	BTN	INST-2
+7	447007	2	Team2-GCIT	Gyalpozhing College of Information Technology	GCIT	BTN	INST-2
+8	447008	2	Team3-GCIT	Gyalpozhing College of Information Technology	GCIT	BTN	INST-2
+9	447009	2	Team4-GCIT	Gyalpozhing College of Information Technology	GCIT	BTN	INST-2
+10	447010	2	Team5-GCIT	Gyalpozhing College of Information Technology	GCIT	BTN	INST-2

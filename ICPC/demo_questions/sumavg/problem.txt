@@ -1,0 +1,28 @@
+================================================================================
+PROBLEM A: SUM AND AVERAGE OF N NUMBERS                           [EASY]
+================================================================================
+
+Difficulty: 🟢 GREEN - Easy
+
+Description:
+Given N integers, calculate their sum and average.
+
+Input Format:
+- First line: Integer N (1 ≤ N ≤ 1000)
+- Second line: N space-separated integers
+
+Output Format:
+- Two values separated by a space: sum and average (round down to integer)
+
+Example:
+Input:          Output:
+5               15 3
+1 2 3 4 5
+
+Constraints:
+- All numbers are integers
+- Average should be floor of actual average
+
+Test Cases:
+- 1.in / 1.out: 5 numbers (1,2,3,4,5) → sum=15, avg=3
+- 2.in / 2.out: 3 numbers (10,20,30) → sum=60, avg=20

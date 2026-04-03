@@ -1,15 +1,21 @@
 accounts	1
-team	Tshering Tenzin	tshering_tech_guys	ebcaqb2pvkcr
-team	ritesh	ritesh_rscb	e4xhxfhye69f
-team	kinley pem	kinley_code404	y7szeqmeerj9
-team	Narayan phuyel	narayan_rising	nca93tkxrr4q
-team	Sonam rinzin	sonam_syntax	7fp6npbcsj23
-team	Bidhan Chhetri	bidhan_hecter	ynac6sfszibh
-team	Chabsel Jungney Wangchuk	chabsel_bugoff	6vfkv2yv534v
-team	Jigme Losel	jigme_code	igeg68kj4pmn
-team	Yeshi Wangmo	yeshi_userz	yapgm2c46gzu
-team	Karma Wangchuk Titung	karma_coding	n8d5994n44yr
-team	dechen wangdra sherpa	dechen_swe1	wbp38x9atgr7
-team	tshering wangpo dorji	tshering_swe2	j7mbj8duez76
-team	Sidartha Subba	sidartha_silly	u3u4mwi559r2
-team	choki wangmo	choki_lady	pe8upcc453hp
+team	Tshering Tenzin	tshering_cst1	cst101	10.10.2.1
+team	Kinley Pem	Kinley_cst1	cst102	10.10.2.2
+team	Ritesh Sharma	ritesh_cst2	cst103	10.10.2.3
+team	Narayan Phuyel	narayan_cst2	cst104	10.10.2.4
+team	Sonam Rinzin	sonam_cst3	cst105	10.10.2.5
+team	Bidhan Chhetri	bidhan_cst3	cst106	10.10.2.6
+team	Chabsel Wangchuk	chabsel_cst4	cst107	10.10.2.7
+team	Jigme Losel	jigme_cst4	cst108	10.10.2.8
+team	Yeshi Wangmo	yeshi_cst5	cst109	10.10.2.9
+team	Karma Wangchuk	karma_cst5	cst110	10.10.2.10
+team	Dechen Sherpa	dechen_gcit1	gcit101	10.10.2.11
+team	Tshering Dorji	tshering_gcit1	gcit102	10.10.2.12
+team	Sidartha Subba	sidartha_gcit2	gcit103	10.10.2.13
+team	Choki Wangmo	choki_gcit2	gcit104	10.10.2.14
+team	Kinley Wangchuk	Kinley_gcit3	gcit105	10.10.2.15
+team	Jigme Namgyel	jigme_gcit3	gcit106	10.10.2.16
+team	Kinley Dorji	Kinley_gcit4	gcit107	10.10.2.17
+team	Sangay	sangay_gcit4	gcit108	10.10.2.18
+team	Tashi	Tashi_gcit5	gcit109	10.10.2.19
+team	Ugyen	Ugyen_gcit5	gcit110	10.10.2.20

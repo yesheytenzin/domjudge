@@ -1,0 +1,26 @@
+================================================================================
+PROBLEM E: SUM OF PRIME NUMBERS UP TO N                           [HARD]
+================================================================================
+
+Difficulty: 🔴 RED - Hard
+
+Description:
+Calculate the sum of all prime numbers less than or equal to N.
+
+Input Format:
+- Single integer N (2 ≤ N ≤ 10000)
+
+Output Format:
+- Integer representing the sum of all primes ≤ N
+
+Example:
+Input:          Output:
+10              17
+
+Explanation: Primes ≤ 10 are 2, 3, 5, 7
+Sum = 2 + 3 + 5 + 7 = 17
+
+Test Cases:
+- 1.in / 1.out: primes ≤ 10 → 2+3+5+7 = 17
+- 2.in / 2.out: primes ≤ 20 → 77
+- 3.in / 3.out: primes ≤ 2 → 2

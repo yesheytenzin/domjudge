@@ -1,0 +1,56 @@
+================================================================================
+                           USER CREDENTIALS
+                   INTRA COLLEGE PROGRAMMING CONTEST 2026
+================================================================================
+
+College of Science and Technology (CST)
+--------------------------------------------------------------------------------
+Team1-CST (ID: 447001)
+  - Username: tshering_cst1  | Password: cst101
+  - Username: kinley_cst1    | Password: cst102
+
+Team2-CST (ID: 447002)
+  - Username: ritesh_cst2    | Password: cst103
+  - Username: narayan_cst2   | Password: cst104
+
+Team3-CST (ID: 447003)
+  - Username: sonam_cst3     | Password: cst105
+  - Username: bidhan_cst3    | Password: cst106
+
+Team4-CST (ID: 447004)
+  - Username: chabsel_cst4   | Password: cst107
+  - Username: jigme_cst4     | Password: cst108
+
+Team5-CST (ID: 447005)
+  - Username: yeshi_cst5     | Password: cst109
+  - Username: karma_cst5     | Password: cst110
+
+================================================================================
+Gyalpozhing College of Information Technology (GCIT)
+--------------------------------------------------------------------------------
+Team1-GCIT (ID: 447006)
+  - Username: dechen_gcit1   | Password: gcit101
+  - Username: tshering_gcit1 | Password: gcit102
+
+Team2-GCIT (ID: 447007)
+  - Username: sidartha_gcit2 | Password: gcit103
+  - Username: choki_gcit2    | Password: gcit104
+
+Team3-GCIT (ID: 447008)
+  - Username: kinley_gcit3   | Password: gcit105
+  - Username: jigme_gcit3    | Password: gcit106
+
+Team4-GCIT (ID: 447009)
+  - Username: kinley_gcit4   | Password: gcit107
+  - Username: sangay_gcit4   | Password: gcit108
+
+Team5-GCIT (ID: 447010)
+  - Username: tashi_gcit5    | Password: gcit109
+  - Username: ugyen_gcit5    | Password: gcit110
+
+================================================================================
+                           IMPORTANT NOTES
+================================================================================
+- Login URL: http://103.133.216.221/team
+- Each team has 2 members who share the same team account
+================================================================================

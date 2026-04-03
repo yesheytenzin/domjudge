@@ -1,0 +1,119 @@
+- username: tshering_cst1
+  password: cst101
+  type: team
+  name: Tshering Tenzin
+  team_id: "1"
+
+- username: kinley_cst1
+  password: cst102
+  type: team
+  name: Kinley Pem
+  team_id: "1"
+
+- username: ritesh_cst2
+  password: cst103
+  type: team
+  name: Ritesh Sharma
+  team_id: "2"
+
+- username: narayan_cst2
+  password: cst104
+  type: team
+  name: Narayan Phuyel
+  team_id: "2"
+
+- username: sonam_cst3
+  password: cst105
+  type: team
+  name: Sonam Rinzin
+  team_id: "3"
+
+- username: bidhan_cst3
+  password: cst106
+  type: team
+  name: Bidhan Chhetri
+  team_id: "3"
+
+- username: chabsel_cst4
+  password: cst107
+  type: team
+  name: Chabsel Wangchuk
+  team_id: "4"
+
+- username: jigme_cst4
+  password: cst108
+  type: team
+  name: Jigme Losel
+  team_id: "4"
+
+- username: yeshi_cst5
+  password: cst109
+  type: team
+  name: Yeshi Wangmo
+  team_id: "5"
+
+- username: karma_cst5
+  password: cst110
+  type: team
+  name: Karma Wangchuk
+  team_id: "5"
+
+- username: dechen_gcit1
+  password: gcit101
+  type: team
+  name: Dechen Sherpa
+  team_id: "6"
+
+- username: tshering_gcit1
+  password: gcit102
+  type: team
+  name: Tshering Dorji
+  team_id: "6"
+
+- username: sidartha_gcit2
+  password: gcit103
+  type: team
+  name: Sidartha Subba
+  team_id: "7"
+
+- username: choki_gcit2
+  password: gcit104
+  type: team
+  name: Choki Wangmo
+  team_id: "7"
+
+- username: kinley_gcit3
+  password: gcit105
+  type: team
+  name: Kinley Wangchuk
+  team_id: "8"
+
+- username: jigme_gcit3
+  password: gcit106
+  type: team
+  name: Jigme Namgyel
+  team_id: "8"
+
+- username: kinley_gcit4
+  password: gcit107
+  type: team
+  name: Kinley Dorji
+  team_id: "9"
+
+- username: sangay_gcit4
+  password: gcit108
+  type: team
+  name: Sangay
+  team_id: "9"
+
+- username: tashi_gcit5
+  password: gcit109
+  type: team
+  name: Tashi
+  team_id: "10"
+
+- username: ugyen_gcit5
+  password: gcit110
+  type: team
+  name: Ugyen
+  team_id: "10"

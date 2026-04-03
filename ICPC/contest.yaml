@@ -1,8 +1,7 @@
-# Contest configuration for Domjudge
-name: Intra College Programming Contest
-short-name: ICPCv4
-start-time: "2025-11-01T09:00:00+06:00"   # Nov 1, 9:00 AM (Bhutan time, UTC+6)
-duration: "03:00:00"                      # 3 hours
-scoreboard-freeze-length: "00:30:00"      # 45 minutes before end
-penalty-time: 0
-
+id: demo2026
+name: Demo Contest 2026
+short-name: DEMOv26
+start-time: 2026-04-03T12:00:00+06:00
+duration: 293:00:00
+scoreboard-freeze-length: 00:45:00
+penalty-time: 20

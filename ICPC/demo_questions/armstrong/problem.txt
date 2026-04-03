@@ -1,0 +1,33 @@
+================================================================================
+PROBLEM F: ARMSTRONG NUMBER CHECK                                  [HARD]
+================================================================================
+
+Difficulty: 🔴 RED - Hard
+
+Description:
+Check if a given positive integer is an Armstrong number (narcissistic number).
+
+Definition:
+An Armstrong number is a number that is equal to the sum of cubes of its
+digits (for 3-digit numbers).
+Generalized: For an n-digit number, sum of (digit^n) = original number.
+
+Examples:
+- 153: 1³ + 5³ + 3³ = 1 + 125 + 27 = 153 ✓
+- 124: 1³ + 2³ + 4³ = 1 + 8 + 64 = 73 ≠ 124 ✗
+
+Input Format:
+- Single positive integer N (1 ≤ N ≤ 1000000)
+
+Output Format:
+- "yes" if Armstrong number, "no" otherwise (lowercase)
+
+Example:
+Input:          Output:
+153             yes
+124             no
+
+Test Cases:
+- 1.in / 1.out: 153 → yes (1³+5³+3³=153)
+- 2.in / 2.out: 124 → no (1³+2³+4³=73)
+- 3.in / 3.out: 407 → yes (4³+0³+7³=407)

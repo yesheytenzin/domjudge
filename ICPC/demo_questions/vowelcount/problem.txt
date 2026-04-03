@@ -1,0 +1,27 @@
+================================================================================
+PROBLEM C: COUNT VOWELS IN A STRING                               [MEDIUM]
+================================================================================
+
+Difficulty: 🟡 YELLOW - Medium
+
+Description:
+Count the number of vowels (a, e, i, o, u) in a given string.
+
+Input Format:
+- A single line containing a string (length 1 to 1000)
+- String contains only lowercase and/or uppercase English letters
+
+Output Format:
+- Integer representing the count of vowels (case-insensitive)
+
+Example:
+Input:          Output:
+Hello World     3
+
+Explanation: H-e-l-l-o has 'e' and 'o' = 2 vowels, but 'o' in World = 1 more.
+Total = 3 vowels (e, o, o)
+
+Test Cases:
+- 1.in / 1.out: "Hello World" → 3 vowels
+- 2.in / 2.out: "AeIoU" → 5 vowels
+- 3.in / 3.out: "bcdfg" → 0 vowels

@@ -1,0 +1,35 @@
+- id: sumavg
+  label: A
+  name: Sum and Average of N Numbers
+  color: green
+  rgb: '#00ff00'
+
+- id: tempconv
+  label: B
+  name: Convert Celsius to Fahrenheit
+  color: green
+  rgb: '#00ff00'
+
+- id: vowelcount
+  label: C
+  name: Count Vowels in a String
+  color: yellow
+  rgb: '#ffff00'
+
+- id: fact
+  label: D
+  name: Factorial Using Function
+  color: yellow
+  rgb: '#ffff00'
+
+- id: sumprime
+  label: E
+  name: Sum of Prime Numbers up to N
+  color: red
+  rgb: '#ff0000'
+
+- id: armstrong
+  label: F
+  name: Armstrong Number Check
+  color: red
+  rgb: '#ff0000'
