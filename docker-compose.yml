@@ -33,23 +33,6 @@ services:
     volumes:
       - domserver_data:/opt/domjudge/domserver
 
-  judgehost-0:
-    image: domjudge/judgehost:latest
-    container_name: judgehost-0
-    restart: unless-stopped
-    privileged: true
-    depends_on:
-      - domserver
-    hostname: judgedaemon-0
-    environment:
-      DAEMON_ID: 0
-      CONTAINER_TIMEZONE: ${CONTAINER_TIMEZONE}
-      DOMSERVER_BASEURL: http://domserver/
-      JUDGEDAEMON_USERNAME: judgehost
-      JUDGEDAEMON_PASSWORD: ${JUDGEDAEMON_PASSWORD}
-    volumes:
-      - /sys/fs/cgroup:/sys/fs/cgroup
-
 volumes:
   mariadb_data:
   domserver_data:
