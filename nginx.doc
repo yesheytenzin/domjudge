@@ -1,0 +1,11 @@
+sudo rm /etc/nginx/sites-available/icpc.cst.edu.bt
+  sudo rm /etc/nginx/sites-enabled/icpc.cst.edu.bt
+  sudo cp /home/domjudge/icpc_setup/domjudge/nginx.conf
+  /etc/nginx/sites-available/icpc.cst.edu.bt
+  sudo ln -s /etc/nginx/sites-available/icpc.cst.edu.bt /etc/nginx/sites-enabled/
+  sudo nginx -t
+  sudo systemctl reload nginx
+
+  Then get SSL:
+  sudo apt install certbot python3-certbot-nginx -y
+  sudo certbot --nginx -d icpc.cst.edu.bt

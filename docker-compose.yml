@@ -29,7 +29,7 @@ services:
       CONTAINER_TIMEZONE: ${CONTAINER_TIMEZONE}
       WEBAPP_BASEURL: ${WEBAPP_BASEURL}
     ports:
-      - "80:80"
+      - "8080:80"
     volumes:
       - domserver_data:/opt/domjudge/domserver
 
